@@ -2,7 +2,7 @@
 
 # I can decode it with online decode for base64.
 
-# In terminal I can do this with this command
+# In terminal I can do this with this command.
 
 base64 -d <<< dGg0dF93NHNfczFtcEwz
 
