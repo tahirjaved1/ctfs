@@ -1,0 +1,16 @@
+# I was given a zip file and i needed to unzip this and retrieve the flag ...
+
+# Simply downloaded that file with wget 
+
+wget https://2018shell.picoctf.com/static/e4161e29a9c65c558d6b38e4ebb2036b/flag.zip
+
+# then unzip that
+
+unzip flag.zip
+
+# then open that jpg file with any image viewer, I used eog
+
+eog flag.jpg
+
+
+

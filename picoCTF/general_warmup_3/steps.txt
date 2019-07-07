@@ -1,0 +1,11 @@
+# I was given number in hexadecimal which I needed to convert into decimal so it was easy to get through
+python
+>> str(0x3D)
+>> int(0x3D)
+
+# for flag I used a python script
+
+#!/usr/bin/env python
+print "picoCTF{%s}" % str(0x3D)
+
+# This worked.

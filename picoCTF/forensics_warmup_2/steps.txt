@@ -1,0 +1,16 @@
+# I was given a png file, and challenge says Hmm for some reason I can't open this PNG? Any ideas?
+
+# first check what is the file format?
+
+file flag.png
+
+# it says it is jpeg so it is simple now
+
+mv flag.png flag.jpeg
+
+# open it with eog
+
+eog flag.jpeg 
+
+
+# type flag into submission field

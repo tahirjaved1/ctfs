@@ -1,0 +1,11 @@
+# I was given number in decimal which I needed to convert into binary so it was easy to get through
+python
+>> bin(27)
+
+# for flag I used a python script
+
+#!/usr/bin/env python
+print "picoCTF{%s}" % bin(27)[2:]
+
+# [2:] for removing first two binary digits :)
+# This worked.

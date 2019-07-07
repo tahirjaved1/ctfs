@@ -1,0 +1,9 @@
+# I was given a base64 code. I needed to decode this
+
+# I can decode it with online decode for base64.
+
+# In terminal I can do this with this command
+
+base64 -d <<< dGg0dF93NHNfczFtcEwz
+
+

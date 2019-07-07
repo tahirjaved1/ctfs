@@ -1,0 +1,8 @@
+# I was given a link in which i needed to find flag. 
+# When I browse into it, I could see the flag
+
+# but i wanted to do with linux terminal so for this
+# i used this command to curl that website and then print out the flag with grep 
+curl -s https://picoctf.com/resources | grep -oE "picoCTF{.*}"
+
+
