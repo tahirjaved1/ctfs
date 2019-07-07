@@ -1,4 +1,4 @@
-# I had to run this file and file is mine
+# I had to run this file and file is mine.
 file flag
 chmod +x flag
 ./flag
