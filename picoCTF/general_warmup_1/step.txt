@@ -1,0 +1,10 @@
+# I was given number which I need to convert into Ascii so it was easy to get through
+python
+>> chr(0x41)
+
+# for flag I used a python script
+
+#!/usr/bin/env python
+print "picoCTF{%s}" % chr(0x41)
+
+# This worked.
