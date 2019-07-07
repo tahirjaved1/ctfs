@@ -8,4 +8,4 @@ python
 print "picoCTF{%s}" % bin(27)[2:]
 
 # [2:] for removing first two binary digits :)
-# This worked.
+# This worked..
