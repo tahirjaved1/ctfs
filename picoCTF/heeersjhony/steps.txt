@@ -1,0 +1,10 @@
+# I was given shadow and passwd files. But we need to first unshadow them because we need to merge them
+# first in order to crack them :) Otherwise we will need to crack one by one. :) 
+# so for this I used unshadow tool by John
+
+unshadow passwd shadow > picoctf.txt
+
+# then i used that command to crack the password and username
+
+john picoctf.txt
+

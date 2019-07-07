@@ -1,0 +1,14 @@
+# I was given only some 2018shell.picoctf.com 34532, I had to connect with this first
+# This challenge was to save output after connecting with that service and port and save that output
+# to a file and then get a flag from that file :)
+
+# First i used that command
+
+nc 2018shell.picoctf.com 34532 > flag.txt
+
+# Then i got bunch of data in flag.txt
+# simple grep this for flag and save into file flag.txt
+
+cat flag.txt | grep -E "picoCTF{.*}"
+
+cat flag.txt | grep -E "picoCTF{.*}" > flag.txt

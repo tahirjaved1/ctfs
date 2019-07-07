@@ -1,0 +1,24 @@
+# I was given a webpage/ index.html file. I have to find flags.
+# I just tried to browse, it was simple webpage and i tried to 
+# see source code of that webpage by pressing 
+ctrl+ u
+
+# and I got picoCTF 1/3 in comment
+# I can automate this
+
+cat index.html | grep "picoCTF"
+
+# Next I was trying ways to find other files linked to this domain # only
+
+# I found one way to fetch every url, files etc
+
+wget -mkEpnp -e robots=off http://2018shell.picoctf.com:28831/
+
+#After this it was easy task to use cat and grep to find more
+# 2/3 and 3/3 flag respectively with the word flag because
+# it was duplicate in every file :)
+
+cat index.html mycss.css myjs.js | grep "flag"
+
+
+

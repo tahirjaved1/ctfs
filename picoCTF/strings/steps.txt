@@ -1,0 +1,23 @@
+# I was given a file and When i checked from file command it was executable.
+
+# I can't run this file so for this I need to do some hit and trial methods like cat etc
+
+# I did this
+
+cat stings
+
+# but failed and I was not finding anything useful, then did this too
+
+cat string | grep -E "picoCTF{.*}"
+
+# but still failed to get something
+
+# so finally I remembered it is an exe file so we can get strings of that exe file so that a human can read this text inside that exe file
+
+# strings is basically a utility which helps us to see human readable text inside exe file otherwise human will not be able to read exe text
+
+# finally 
+
+strings strings | grep -E "picoCTF{.*}"
+
+

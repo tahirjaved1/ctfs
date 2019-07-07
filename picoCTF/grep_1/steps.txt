@@ -1,0 +1,14 @@
+# we were given a file, that were simple text file
+# check it by
+
+file file
+
+# then i just simply grep this file for picoCTF word with this command
+
+cat file | grep -E "picoCTF{.*}" 
+
+# -E for regular expressions
+#The .* characters, in a regular expression like this mean “match any 
+#number of any characters”, so the pattern here says “match the word picoCTF followed by a
+#{, followed by any characters until you find a }”.
+

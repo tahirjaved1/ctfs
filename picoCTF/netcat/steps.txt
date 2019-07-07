@@ -1,0 +1,5 @@
+# I was given a service and a port, needed to connect it with nc so simple
+
+nc 2018shell.picoctf.com 36356
+
+# nc is a tool which will allow us to connect to remote host :))

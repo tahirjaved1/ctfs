@@ -1,0 +1,7 @@
+# I was given the text which I need to change from rot13 
+
+cvpbPGS{guvf_vf_pelcgb!}
+
+# I had that command before i used for other rot13 tasks
+
+echo "cvpbPGS{guvf_vf_pelcgb}" | tr '[A-Za-z]' '[N-ZA-Mn-za-m]'

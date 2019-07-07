@@ -1,0 +1,1 @@
+picoCTF{grep_and_you_will_find_c709fa94}

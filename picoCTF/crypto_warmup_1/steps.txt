@@ -1,0 +1,12 @@
+# I used online Decoder, you can use python script or something.
+
+https://www.dcode.fr/vigenere-cipher
+
+# Also, it was vigenere-cipher, as I already got table.txt so it was easy to know that which cipher
+# we need to decode
+
+# Text was:
+llkjmlmpadkkc
+
+#Key that was given:
+thisisalilkey
