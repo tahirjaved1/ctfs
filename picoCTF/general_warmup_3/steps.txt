@@ -8,4 +8,4 @@ python
 #!/usr/bin/env python
 print "picoCTF{%s}" % str(0x3D)
 
-# This worked.
+# This worked..
