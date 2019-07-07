@@ -12,5 +12,6 @@ unzip flag.zip
 
 eog flag.jpg
 
+# and type that output in submission field
 
 
