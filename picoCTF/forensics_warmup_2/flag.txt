@@ -1,0 +1,1 @@
+picoCTF{extensions_are_a_lie}

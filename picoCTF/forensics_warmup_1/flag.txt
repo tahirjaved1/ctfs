@@ -1,0 +1,1 @@
+picoCTF{welcome_to_forensics}
