@@ -1,0 +1,22 @@
+# We needed to learn assembly for this and also, we will try to read source
+
+# code for assembly
+
+
+# Here what I got value in python after reading assembly code
+
+
+Python 2.7.15+ (default, Nov 27 2018, 23:36:35) 
+[GCC 7.3.0] on linux2
+Type "help", "copyright", "credits" or "license" for more information.
+
+>>> 0x76 > 0x98
+False
+
+>>> 0x76 != 0x98
+True
+
+>>> hex(0x76 - 3)
+'0x73'
+>>> 
+

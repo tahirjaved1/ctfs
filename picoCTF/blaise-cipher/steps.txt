@@ -1,0 +1,7 @@
+# Blaise cipher is actually vigenere cipher
+
+
+I used online tool for this. But you can even use terminal based tool.
+
+
+https://www.boxentriq.com/code-breaking/vigenere-cipher#tool
