@@ -1,0 +1,9 @@
+# Simply find directories,
+
+
+# For recon you will find robots.txt first then other there you will have to browse
+
+# After that I simply created a bash script for that
+
+
+curl http://2018shell.picoctf.com:10157/143ce.html | cut -d '>' -f2 | cut -d '<' -f1 | tail -n 5 | head -n 1

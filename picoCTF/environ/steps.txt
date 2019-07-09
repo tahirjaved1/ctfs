@@ -1,0 +1,6 @@
+# I was being told, flag is in environment variables
+
+
+# in linux we can see our environment variables for every programs by using
+
+env

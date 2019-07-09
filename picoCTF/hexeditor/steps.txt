@@ -1,0 +1,10 @@
+# What i did first using foremost nd then this below command and i got the flag.
+
+strings hex_editor.jpg | grep -oE "picoCTF{.*}"
+
+
+# Also you can use this too
+
+strings hex_editor.jpg | tail -n 1 | cut -d ':' -f2 | cut -d '"' -f2
+
+
