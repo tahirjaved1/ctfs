@@ -11,3 +11,8 @@ zsteg 2018.png | head -n 1 | cut -d ":" -f2 | cut -d '"' -f2
 # Also
 
 exiftool 2018.png | tail -n 3 | head -n 1 | cut -d ":" -f2 | cut -d " " -f2
+
+
+# Also
+
+exiftool 2018.png | grep -oE "picoCTF{.*}"
