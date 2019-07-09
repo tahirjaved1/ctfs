@@ -1,0 +1,4 @@
+## I can use simple bash script using curl
+
+
+curl --user-agent "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; Googlebot/2.1; +http://www.google.com/bot.html) Safari/537.36" "http://2018shell.picoctf.com:53383/flag" | tail -n 21 | head -n 1 | cut -b 78- | cut -d '<' -f1
