@@ -1,0 +1,5 @@
+# i was given a webpage or index.html we need to find flag. 
+# Simply by viewing source code you can clearly see flag. 
+# othewise simple bash script
+
+curl http://2018shell.picoctf.com:55790/ | tail -n 36 | cut -d "'" -f2 | head -n 8 | tac | tr -d "\n"

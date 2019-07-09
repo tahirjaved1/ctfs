@@ -1,0 +1,5 @@
+## I was given a file in pcap format ..
+# I just found flag using Wireshark manually visiting everything
+# Otherwise you can use strings utility for getting flag
+
+strings data.pcap | grep -oE "picoCTF{.*}"

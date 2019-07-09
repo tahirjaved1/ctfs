@@ -1,0 +1,2 @@
+# Follow instructions you see on the screen after 
+nc 2018shell.picoctf.com 58422

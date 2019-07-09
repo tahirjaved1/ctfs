@@ -1,0 +1,3 @@
+# Use zstep for this
+
+zsteg husky.png | grep -oE "picoCTF{.*}"
