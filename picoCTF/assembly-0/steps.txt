@@ -1,0 +1,29 @@
+###
+
+# Copied from Stackoverflow so that one could understand what is happening behind the scene.
+
+
+Let's break it down what happens when it's being called with asm(0xb6, 0xc6).
+
+push    ebp
+mov     ebp, esp
+Those two lines are what's is called the function prologue. We first save the calling function stack frame (ebp is tracking that) and in the second one, we set our function stack frame to be equal to the current stack location.
+
+mov eax, DWORD PTR [ebp+0x8]
+mov ebx, DWORD PTR [ebp+0xc]
+The above lines are loading our passed arguments to eax and ebx. Since in cdecl arguments are passed via stack in reverse order, so after those lines in eax we will have 0xb6 and ebx will be equal to 0xc6.
+
+mov eax, ebx
+The value from ebx is stored in eax, thus we drop the need of the first line from the previous fragment. Also since this is the last use of eax in this code it can be interpreted as a return value as this is also a convention in cdecl. So the return value, in this case, would be 0xc6.
+
+mov esp,ebp
+pop ebp
+This is just bringing back the stack as it was when we enter the function - also called function epilogue.
+
+ret
+And return back to the caller.
+
+
+
+
+###

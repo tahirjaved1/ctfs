@@ -1,0 +1,10 @@
+# I was given a text which were in caesar cipher.. I can use online decoder ..
+
+
+# https://cryptii.com/pipes/caesar-cipher
+
+
+# otherwise you can use terminal based caesar utility
+
+for i in {1..30}; do cat ciphertext | cut -b 8- | cut -d "{" -f2 | cut -d "}" -f1 | caesar $i; done
+

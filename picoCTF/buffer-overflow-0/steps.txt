@@ -1,0 +1,18 @@
+# Basically we were given two file 
+
+# One is vuln, it was exe file
+
+# one was vuln.c source code of that exe file
+
+# We can only get flag at shell server picoctf
+
+
+# so for this we need to read source code, as it could accept only below 16 buffer value so it means we can overflow that
+
+# by putting 17 buffer value. and eventually get the flag
+
+
+# passs argument more than 16 characters
+
+
+./vuln sdasdjasndasdasjdnasjdasdasdasdasdasdsa
